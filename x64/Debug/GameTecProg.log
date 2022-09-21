@@ -1,0 +1,3 @@
+﻿  Game.cpp
+C:\Users\hapme\OneDrive\Documentos\GameTecProg\GameTecProg\Game\Game.cpp(39,46): warning C4244: 'argumento': conversão de 'double' para 'Uint8', possível perda de dados
+  GameTecProg.vcxproj -> C:\Users\hapme\OneDrive\Documentos\GameTecProg\GameTecProg\x64\Debug\GameTecProg.exe

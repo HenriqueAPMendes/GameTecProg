@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{f77d50c0-bfd8-4e60-b1cd-03d6faedf149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS">
+      <UniqueIdentifier>{9cd4f556-b796-4a15-97ce-0b7349f1f6bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Entity">
+      <UniqueIdentifier>{0fdbf208-528e-4456-9345-830a2e04a4f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Entity\Player">
+      <UniqueIdentifier>{d92403f3-213b-4c9a-a5d0-0bee968177c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Level">
+      <UniqueIdentifier>{ddc35007-9ec5-4f48-8a31-f734fb19caa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Level\Map">
+      <UniqueIdentifier>{c309603d-a163-47df-bbdc-655e90308fa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Level\Saves">
+      <UniqueIdentifier>{0dec996b-cd8e-4e44-aced-750b86fea6fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{f348ffb3-70c4-4009-9f2b-752f44b0febf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\ImageAssets">
+      <UniqueIdentifier>{3c8563b0-67f1-4ed0-89c7-50c81414ec9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\AudioAssets">
+      <UniqueIdentifier>{1c7eb7b0-7435-4145-8311-704f1311583e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\HUD">
+      <UniqueIdentifier>{d9492141-3a1a-43fd-808e-64502147b81d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Entity\Animation">
+      <UniqueIdentifier>{a31d8166-5330-4671-979a-d0b238e2fd08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Entity\Enemy">
+      <UniqueIdentifier>{0475abcd-9a0c-407e-b1e2-68d271b334c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Entity\Enemy\EnemyType1">
+      <UniqueIdentifier>{7aecb329-e1af-4ac4-93e7-a6400edf7a0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Entity\Enemy\EnemyType2">
+      <UniqueIdentifier>{958fada6-212d-406e-bf13-679b4e33591a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Entity\Enemy\EnemyType3">
+      <UniqueIdentifier>{5db876a4-38a6-4d75-ac70-91967d2f1f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Entity\Enemy\Boss">
+      <UniqueIdentifier>{cff75d45-5be3-458b-9ee3-2d4b5413cb18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Entity\Enemy\Projectiles">
+      <UniqueIdentifier>{3e4350bc-9dfa-4522-9e22-777a8ffcd3f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Components">
+      <UniqueIdentifier>{0e2d80bb-8683-4259-962c-862d2bd05f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Components\ComponentsList">
+      <UniqueIdentifier>{79faa996-dcb9-4b69-9455-1573c022c604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Components\SubComponents">
+      <UniqueIdentifier>{ebfc7019-344f-4330-9d57-1abcf7668bac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Components\Vector2D">
+      <UniqueIdentifier>{db682dd3-4deb-45c3-8c4f-62adbfc28677}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ECS\Entity\Player\EventController.cpp">
+      <Filter>ECS\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ECS\Entity\Player\Player.cpp">
+      <Filter>ECS\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level\Level.cpp">
+      <Filter>Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level\Map\Map.cpp">
+      <Filter>Game\Level\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level\Map\Tile.cpp">
+      <Filter>Game\Level\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\HUD\HUD.cpp">
+      <Filter>Game\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="ECS\Entity\Animation\Animation.cpp">
+      <Filter>ECS\Entity\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ECS\Entity\Enemy\EnemyType1\EnemyType1.cpp">
+      <Filter>ECS\Entity\Enemy\EnemyType1</Filter>
+    </ClCompile>
+    <ClCompile Include="ECS\Entity\Enemy\EnemyType2\EnemyTipe2.cpp">
+      <Filter>ECS\Entity\Enemy\EnemyType2</Filter>
+    </ClCompile>
+    <ClCompile Include="ECS\Entity\Enemy\EnemyType3\EnemyType3.cpp">
+      <Filter>ECS\Entity\Enemy\EnemyType3</Filter>
+    </ClCompile>
+    <ClCompile Include="ECS\Entity\Enemy\Boss\Boss.cpp">
+      <Filter>ECS\Entity\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="ECS\Entity\Enemy\Projectiles\Projectile.cpp">
+      <Filter>ECS\Entity\Enemy\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ECS\Entity\Enemy\Enemy.cpp">
+      <Filter>ECS\Entity\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ECS\Components\Vector2D\Vector2D.cpp">
+      <Filter>ECS\Components\Vector2D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Entity\Player\EventController.h">
+      <Filter>ECS\Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Entity\Player\Player.h">
+      <Filter>ECS\Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Entity\Entity.h">
+      <Filter>ECS\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Components\Component.h">
+      <Filter>ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Components\ComponentsList\ComponentsList.h">
+      <Filter>ECS\Components\ComponentsList</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Components\SubComponents\AudioComponent.h">
+      <Filter>ECS\Components\SubComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Components\SubComponents\ColliderComponent.h">
+      <Filter>ECS\Components\SubComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Components\SubComponents\HealthComponent.h">
+      <Filter>ECS\Components\SubComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Components\SubComponents\SpriteComponent.h">
+      <Filter>ECS\Components\SubComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Components\SubComponents\TransformComponent.h">
+      <Filter>ECS\Components\SubComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level\Level.h">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level\Map\Map.h">
+      <Filter>Game\Level\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level\Map\Tile.h">
+      <Filter>Game\Level\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\HUD\HUD.h">
+      <Filter>Game\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Entity\Animation\Animation.h">
+      <Filter>ECS\Entity\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Entity\Enemy\EnemyType1\EnemyType1.h">
+      <Filter>ECS\Entity\Enemy\EnemyType1</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Entity\Enemy\EnemyType2\EnemyTipe2.h">
+      <Filter>ECS\Entity\Enemy\EnemyType2</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Entity\Enemy\EnemyType3\EnemyType3.h">
+      <Filter>ECS\Entity\Enemy\EnemyType3</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Entity\Enemy\Boss\Boss.h">
+      <Filter>ECS\Entity\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Entity\Enemy\Projectiles\Projectile.h">
+      <Filter>ECS\Entity\Enemy\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Entity\Enemy\Enemy.h">
+      <Filter>ECS\Entity\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Components\Vector2D\Vector2D.h">
+      <Filter>ECS\Components\Vector2D</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
